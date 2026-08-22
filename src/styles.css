@@ -245,3 +245,12 @@
 @utility animate-marquee {
   animation: marquee 40s linear infinite;
 }
+
+/* Hide Netlify feedback drawer widget */
+[data-netlify-drawers],
+#netlify-notification-root,
+iframe[src*="netlify"],
+netlify-drawer {
+  display: none !important;
+}
+
